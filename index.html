@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toko Petani Milenial</title>
+  <style>
+    :root {
+      --kopi-bg: #f5f5f5;
+      --kopi-text: #444;
+      --lada-bg: linear-gradient(to right, #228b22, #b22222);
+      --lada-text: #fff;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--kopi-bg);
+      color: var(--kopi-text);
+    }
+
+    header {
+      background: #333;
+      color: white;
+      padding: 1em;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+      background: #eee;
+      padding: 0.5em;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .section {
+      padding: 2em;
+    }
+
+    .kopi {
+      background: var(--kopi-bg);
+      color: var(--kopi-text);
+    }
+
+    .lada {
+      background: var(--lada-bg);
+      color: var(--lada-text);
+    }
+
+    .produk {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 2em;
+      justify-content: center;
+    }
+
+    .produk-item {
+      width: 300px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      background: white;
+    }
+
+    .produk-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .produk-item .content {
+      padding: 1em;
+    }
+
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 1em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Toko Petani Milenial</h1>
+    <p>Ekspor Kopi Toraja & Lada Katokkon</p>
+  </header>
+  <nav>
+    <a href="#beranda">Beranda</a>
+    <a href="#tentang">Tentang Kami</a>
+    <a href="#produk">Produk</a>
+    <a href="#galeri">Galeri</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <section id="beranda" class="section">
+    <h2>Selamat datang di Toko Petani Milenial</h2>
+    <p>Kami menghadirkan produk unggulan dari Tana Toraja: Kopi Toraja yang harum dan Lada Katokkon yang pedas menggigit, siap menembus pasar internasional.</p>
+  </section>
+
+  <section id="tentang" class="section kopi">
+    <h2>Tentang Kami</h2>
+    <p>Kami adalah kelompok petani muda dari Toraja yang berkomitmen mengangkat potensi lokal ke kancah global. Dengan menggabungkan kearifan lokal dan inovasi, kami menyajikan produk berkualitas tinggi yang mencerminkan semangat dan tanah kelahiran kami.</p>
+  </section>
+
+  <section id="produk" class="section lada">
+    <h2>Produk Unggulan</h2>
+    <div class="produk">
+      <div class="produk-item">
+        <img src="kopi-placeholder.jpg" alt="Kopi Toraja">
+        <div class="content">
+          <h3>Kopi Toraja</h3>
+          <p>Kopi arabika dengan cita rasa khas tanah tinggi Toraja. Cocok untuk ekspor dan pecinta kopi sejati.</p>
+        </div>
+      </div>
+      <div class="produk-item">
+        <img src="lada-placeholder.jpg" alt="Lada Katokkon">
+        <div class="content">
+          <h3>Lada Katokkon</h3>
+          <p>Lada pedas dari Toraja yang unik, berbentuk bulat besar dan beraroma kuat. Cocok untuk kuliner dan kesehatan.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeri" class="section">
+    <h2>Galeri</h2>
+    <p>(Masukkan foto kebun kopi dan kebun lada di sini)</p>
+  </section>
+
+  <section id="kontak" class="section kopi">
+    <h2>Kontak Kami</h2>
+    <p>Hubungi kami untuk pemesanan dan kerja sama ekspor:</p>
+    <ul>
+      <li>Email: petanimilenial@contoh.com</li>
+      <li>WhatsApp: +62 812-3456-7890</li>
+      <li>Instagram: @petani.milenial</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Toko Petani Milenial. Semua Hak Dilindungi.</p>
+  </footer>
+</body>
+</html>
